@@ -26,6 +26,10 @@
         Fontawesome Kit
     -------------------------------------->
     <script src="https://kit.fontawesome.com/bc8c3219c6.js" crossorigin="anonymous"></script>
+    <!-------------------------------------
+        Main Style File
+    -------------------------------------->
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body class="font-['Poppins']">
@@ -291,37 +295,41 @@
 
             <div id="indicators-carousel" class="relative" data-carousel="static">
                 <!-- Carousel wrapper -->
-                <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+                <div class="relative h-[400px] md:h-[500px] overflow-hidden rounded-lg">
                     <!-- Item 1 -->
-                    <div class="hidden duration-700 ease-in-out bg-[url('images/slider-1.jpg')] bg-no-repeat bg-cover" data-carousel-item="active">
+                    <div class="py-20 px-9 hidden duration-700 ease-in-out bg-[url('images/slider-1.jpg')] bg-no-repeat bg-cover" data-carousel-item="active">
                         <!-- <img src="images/banner.png"
                             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> -->
-                        <div>
-                            <div class="flex justify-center items-center"> 
+                        <div class="py-10 md:px-32">
+                            <div class="flex justify-center items-center mb-6"> 
                                 <img src="images/client-1.png" alt="" class="w-16 h-16">
                             </div>
-                            
+                            <h3 class="text-center font-['EB_Garamond'] text-xl md:text-2xl font-extrabold text-white">Awlad Hossain</h3>
+                            <p class="font-['Poppins'] text-sm md:text-base text-center text-gray-300 mb-8">Ui/Ux Designer</p>
+                            <p class="text-center text-xs md:text-base mb-10 text-white truncate md:whitespace-normal md:overflow-auto ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
                         </div>
                     </div>
                     <!-- Item 2 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-2.svg"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="py-20 px-9 hidden duration-700 ease-in-out bg-[url('images/slider-1.jpg')] bg-no-repeat bg-cover" data-carousel-item>
+                        <div class="py-10 md:px-32">
+                            <div class="flex justify-center items-center mb-6"> 
+                                <img src="images/client-1.png" alt="" class="w-16 h-16">
+                            </div>
+                            <h3 class="text-center font-['EB_Garamond'] text-2xl font-extrabold text-white">Awlad Hossain</h3>
+                            <p class="font-['Poppins'] text-base text-center text-gray-300 mb-8">Ui/Ux Designer</p>
+                            <p class="text-center text-base mb-10 text-white truncate md:whitespace-normal md:overflow-auto ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                        </div>
                     </div>
                     <!-- Item 3 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-3.svg"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 4 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-4.svg"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-                    </div>
-                    <!-- Item 5 -->
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/docs/images/carousel/carousel-5.svg"
-                            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                    <div class="py-20 px-9 hidden duration-700 ease-in-out bg-[url('images/slider-1.jpg')] bg-no-repeat bg-cover" data-carousel-item>
+                        <div class="py-10 md:px-32">
+                            <div class="flex justify-center items-center mb-6"> 
+                                <img src="images/client-1.png" alt="" class="w-16 h-16">
+                            </div>
+                            <h3 class="text-center font-['EB_Garamond'] text-2xl font-extrabold text-white">Awlad Hossain</h3>
+                            <p class="font-['Poppins'] text-base text-center text-gray-300 mb-8">Ui/Ux Designer</p>
+                            <p class="text-center text-base mb-10 text-white truncate md:whitespace-normal md:overflow-auto ">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+                        </div>
                     </div>
                 </div>
                 <!-- Slider indicators -->
@@ -332,10 +340,6 @@
                         data-carousel-slide-to="1"></button>
                     <button type="button" class="w-6 h-1 rounded-md" aria-current="false" aria-label="Slide 3"
                         data-carousel-slide-to="2"></button>
-                    <button type="button" class="w-6 h-1 rounded-md" aria-current="false" aria-label="Slide 4"
-                        data-carousel-slide-to="3"></button>
-                    <button type="button" class="w-6 h-1 rounded-md" aria-current="false" aria-label="Slide 5"
-                        data-carousel-slide-to="4"></button>
                 </div>
                 <!-- Slider controls -->
                 <button type="button"
